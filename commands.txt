@@ -1,0 +1,13 @@
+npm init -y --cria o package
+npm install express --instala o express
+node index.js  --executa backend sem nodemon
+npm start --executa frontend e backend  ( com nodemon posso rodar este comando)
+npm install nodemon -D  -- não precisa ficar reiniciando o serviço
+npm install knex --instala knex
+npx knex init --gera arquivo que configura conexao com base de dados
+npx create-react-app frontend --cria um projeto react com nome frontend
+npm install sqlite3 -- instala recurso de banco
+npx knex migrate:make create_ongs --criação de uma migrations
+npx knex migrate:latest -- para executar a migrations
+npx knex migrate:rollback --desfaz a ultima execução do migrations
+npm install cors --limita quem pode acessar nossa aplicacao
