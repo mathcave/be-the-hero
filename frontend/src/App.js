@@ -1,7 +1,9 @@
+import Routes from "./routes";
+import './global.css';
 
 function App() {
   return (
-   <h1>Hello d</h1>
+   <Routes/>
   );
 }
 
